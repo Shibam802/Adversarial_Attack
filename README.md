@@ -132,18 +132,14 @@ python main.py
 
 ## 📎 Results Summary
 
-| Attack Type | Precision | Recall | F1-score |
-| ----------- | --------- | ------ | -------- |
-| Clean       | xx%       | xx%    | xx%      |
-| FGSM        | xx%       | xx%    | xx%      |
-| PGD         | xx%       | xx%    | xx%      |
-| BIM         | xx%       | xx%    | xx%      |
-| AutoAttack  | xx%       | xx%    | xx%      |
-| RandomNoise | xx%       | xx%    | xx%      |
+![Screenshot 2025-07-03 124329](https://github.com/user-attachments/assets/58aabbdf-5f6f-4ca5-b88c-63abf8fb87a8)
+![Screenshot 2025-07-03 124248](https://github.com/user-attachments/assets/97356ad4-e017-4217-b71c-62dc3cc9aaa3)
+![WhatsApp Image 2025-07-03 at 12 43 08_aaa60671](https://github.com/user-attachments/assets/820328bf-1f31-42fe-b8ce-a2a93c3232fc)
+![WhatsApp Image 2025-07-03 at 12 43 18_fadc8144](https://github.com/user-attachments/assets/d1aa1a67-d97e-40a5-bd33-c724f8d2648f)
 
-> *(Fill in with actual results after training)*
 
----
+
+
 
 ## 📌 Future Improvements
 
