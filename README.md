@@ -152,9 +152,9 @@ python main.py
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the Shibam License.
 
----
 
-Let me know if you'd like this README to be auto-filled with your actual results or if you'd like a version with LaTeX or Jupyter support!
+
+
 
