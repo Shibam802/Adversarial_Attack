@@ -1,12 +1,12 @@
 # Adversarial_Attack
 Multi-Class Detection of Adversarial Perturbation with Local Histogram Equalization and High-Pass Filters
-Here's a complete `README.md` file you can use for your GitHub repository. It clearly describes your project, dependencies, usage, and key results. You can copy and paste this into a `README.md` file in your repository:
+
 
 ---
 
 # 🔐 Adversarial Attack Type Classifier using GhostNet and CIFAR-100
 
-This project builds a robust image classifier that identifies whether an image is clean or has been modified by an adversarial attack. It leverages **GhostNet** as the backbone model and operates on the **CIFAR-100** dataset with preprocessing via **Local Histogram Equalization (LHE)** and **High-pass filtering**. Adversarial examples are generated using popular attacks like FGSM, PGD, BIM, AutoAttack, and random noise.
+This project builds a robust image classifier that identifies whether an image is clean or has been modified by an adversarial attack. It leverages "GhostNet" as the backbone model and operates on the "CIFAR-100" dataset with preprocessing via "Local Histogram Equalization (LHE)" and "High-pass filtering". Adversarial examples are generated using popular attacks like FGSM, PGD, BIM, AutoAttack, and random noise.
 
 ---
 
@@ -15,7 +15,7 @@ This project builds a robust image classifier that identifies whether an image i
 * ✅ Train on clean + adversarially perturbed images.
 * ✅ Detect attack type (multi-class classification).
 * ✅ Apply image preprocessing (LHE + High-pass filter).
-* ✅ Use pretrained **GhostNet** model from `timm`.
+* ✅ Use pretrained "GhostNet" model from `timm`.
 * ✅ Support for mixed precision training via `torch.cuda.amp`.
 * ✅ Visualize confusion matrix and correlation matrix.
 * ✅ Evaluate classifier on unseen data.
@@ -24,12 +24,12 @@ This project builds a robust image classifier that identifies whether an image i
 
 ## 📁 Dataset
 
-* **CIFAR-100**: Automatically downloaded via `torchvision.datasets`.
+* CIFAR-100: Automatically downloaded via `torchvision.datasets`.
 * Splits:
 
-  * **80%** of CIFAR-100 train set for training.
+  * 80% of CIFAR-100 train set for training.
   * Remaining 20% used for validation.
-  * **Test set** used to generate adversarial examples.
+  * Test set used to generate adversarial examples.
 
 ---
 
@@ -75,17 +75,19 @@ This helps amplify subtle perturbations caused by adversarial attacks.
 
 ## 🖼 Sample Output
 
-```text
-Sample 1: True = FGSM, Predicted = PGD  
-Sample 2: True = Clean, Predicted = Clean  
-...
-```
+<img width="921" height="516" alt="image" src="https://github.com/user-attachments/assets/135ed30f-268f-4e8e-a8d7-7e597cf685db" />
+
 
 Confusion Matrix:
-![Confusion Matrix](./images/confusion_matrix.png)
+<img width="921" height="548" alt="image" src="https://github.com/user-attachments/assets/14ac2039-23e9-4a46-bd3b-7d93cbc06c89" />
+
 
 Correlation Matrix:
-![Correlation Matrix](./images/correlation_matrix.png)
+<img width="921" height="535" alt="image" src="https://github.com/user-attachments/assets/d41d877f-0bce-4258-ab2c-496adcdcf8cf" />
+
+Classification Report:
+<img width="849" height="538" alt="image" src="https://github.com/user-attachments/assets/bad80f94-b687-4c8a-a748-fe68617569b7" />
+
 
 ---
 
